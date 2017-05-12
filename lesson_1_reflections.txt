@@ -1,0 +1,45 @@
+Q: How did viewing a diff between two 
+versions of a file help you see the bug 
+that was introduced ? 
+
+A: Using diff command clearly showed what 
+were the changes between the new and 
+old versions along with the line numbers.
+Even in a 1000 line file, the difference
+could be found in a matter of seconds by
+looking at the results of the diff command.
+
+Q:How could having easy access to the entire 
+history of a file make you a more efficient 
+programmer in the long term ? 
+
+A: Having access to the history of file makes
+it easy to find what changes were dont to the 
+code and when, resulting in effeciency in 
+debugging, ease of understanding in case of 
+issues and ensuring that no inadvertent overwrites
+or mistakes were made when moving from older 
+version to a newer version. 
+
+Q: Why do you think some version control systems,
+like Git, allow saving multiple files in one 
+commit, while others, like Google Docs, treat each
+file separately ? 
+
+A: Usually coding changes involve changing multiple
+related files at the same time. That is why Git has 
+the feature for committing multiple files in one commit.
+While Google Docs is usually used for stand alone documents
+and there is not usually a need to track changes across
+multiple files at the same time. 
+
+Q: How can you use the commands git log and git diff to view the history of files ? 
+
+A:Command git log is used to see the entire history of all the commits which were done in a project.
+It shows the description, time, author , id of the commit. It also shows the list of file(s) which 
+were changed along with the number of additions / deletions in each file 
+git diff is used to see the exact differences between two different commits, including differences between
+multiple files if applicable.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for ? 
+A: I want to use Git to learn Artificial Intelligence coding and make a fraud detection program using AI.
