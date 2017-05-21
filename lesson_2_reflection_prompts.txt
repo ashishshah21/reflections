@@ -7,4 +7,8 @@ A:Staging area is the actual repository. It helps to keep it seperate from the w
 Q: How can you use the staging area to make sure you have one commit per logical change?
 By comparing the command git diff, it compares working directory to staging area.
 
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: When I have to make some experimental changes which i don’t want to impact the master branch. Also branches can help see several experiments at the same time.
+
 
