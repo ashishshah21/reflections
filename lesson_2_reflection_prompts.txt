@@ -3,3 +3,8 @@ When I initialize a respository, git starts tracking the files in it. I need to 
 
 Q:How is the staging area different from the working directory and the repository? What value do you think it offers?
 A:Staging area is the actual repository. It helps to keep it seperate from the working directory so that I can make commit to only the changes i need.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+By comparing the command git diff, it compares working directory to staging area.
+
+
