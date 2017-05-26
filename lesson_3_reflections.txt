@@ -9,3 +9,8 @@ A: Fork is a copy of repository on github servers ; f, clone is a copy of  repos
 q : What is the benefit of having a copy of the last known state of the remote stored locally?
 
 a : ability to run diff between local/remote and local-remote and remote
+
+q : How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A : Easier : Sitting next to each other ; using compare tools ; working on the file one at a time ; 
+Harder to be effective and productive
