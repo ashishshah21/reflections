@@ -14,5 +14,9 @@ A: When I have to make some experimental changes which i don’t want to impact 
 Q : How do the diagrams help you visualize the branch structure?
 A : By telling is the last commit which is common to all the branches, and also the timelines of which commits in each branch was made 
 
+q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: By merging the two branches , the individual changes in each branch is now available in the merged branch. That is why in the diagram two branches are individual lines with each commit as its node, while after merge , the all commits of the merged branches can be reached within the merged branch. Hence they are represented as coming together.
+
+
 
 
