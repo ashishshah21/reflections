@@ -17,6 +17,15 @@ A : By telling is the last commit which is common to all the branches, and also 
 q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 A: By merging the two branches , the individual changes in each branch is now available in the merged branch. That is why in the diagram two branches are individual lines with each commit as its node, while after merge , the all commits of the merged branches can be reached within the merged branch. Hence they are represented as coming together.
 
+q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A : Pro : The resulting merged file is not always a squish together version of all changes which potentially don’t make sense.
+
+Pro : Leaves out unintended changes by forcing authors to look at the changes which are in conflict.
+
+Con : The authors have to figure a way to resolve conflict which takes time 
+
+
+
 
 
 
